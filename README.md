@@ -1,4 +1,4 @@
-# [Halite](https://halite.io/)
+# [Halite](https://2016.halite.io/)
 
 Whew! It's over. Or at least, it WAS over for most people about a week ago. I've delayed releasing my bot because my company is running a private server this week for our own competition. Our deadline for bot submission was the morning of Monday February 20, with final outcomes on Friday, February 24. 
 
@@ -8,7 +8,7 @@ Thanks to the organizers, Two Sigma, particularly @truell and @sydriax for their
 
 # Bot overview
 
-Bots Mark 1-6(ish) are the process of me working through [improving the random bot](https://halite.io/basics_improve_random.php) and [nmalaguti's tutorial](http://forums.halite.io/t/so-youve-improved-the-random-bot-now-what/482). Pretty straightforward. I believe Mark 6 ended up around the mid-400s.
+Bots Mark 1-6(ish) are the process of me working through [improving the random bot](https://2016.halite.io/basics_improve_random.php) and [nmalaguti's tutorial](http://2016.forums.halite.io/t/so-youve-improved-the-random-bot-now-what/482). Pretty straightforward. I believe Mark 6 ended up around the mid-400s.
 
 ## Mark 7, 8, 9: Aware of my surroundings
 
@@ -77,7 +77,7 @@ Mark 11 and 12 stabilized right around 40-45 on the scoreboard.
 
 These were still pretty buggy. The combination of 'allowed moves' plus the NAP meant that sometimes max-sized pieces got stuck in corners while other pieces moved toward them. The NAP logic incorrectly identified neutral sites with empty sites next to them as not being 'walls' which caused lots of intrusions into enemy sites that might have been better left alone. 
 
-Mark 12 currently holds the unnofficial world record for the [unofficial single player mode](http://forums.halite.io/t/introducing-unofficial-halite-single-player-mode/573) for the 50x50 seed 123456789 map at [151 frames](https://nmalaguti.github.io/halite-visualizer/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F1233404%2F417650-123456789.hlt). 
+Mark 12 currently holds the unnofficial world record for the [unofficial single player mode](http://2016.forums.halite.io/t/introducing-unofficial-halite-single-player-mode/573) for the 50x50 seed 123456789 map at [151 frames](https://nmalaguti.github.io/halite-visualizer/?url=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F1233404%2F417650-123456789.hlt). 
 
 Mark 13 was a couple of bugfixes and improvements to Mark 12, uploaded to the Halite site in the wee hours of the morning on Sunday before the Halite competition switched to the finals. My tests since then say that Mark 13 is only marginally better or possibly worse than Mark 12. ¯\\\_(ツ)_/¯ 
 
@@ -89,7 +89,7 @@ The Nerdery winter code challenge is to submit a bot by the week of February 20.
 
 Since the Nerdery competition happened after the main Halite competition was over, there were some questions around using the code released by other competitors within our own games. The word arrived from on high: please don't submit somebody else's bot, but feel free to be inspired. Nerd's honor.
 
-My final few versions that I experimented with during the weekend of February 18 were inspired heavily by the ['gold bot'](http://braino.org/thoughts/halite_the_simple_way.html) and Erdman's [third place bot](https://github.com/erdman/erdman-halite-bots/blob/master/README.md). Erdman's bot is in Python, while my submission is ruby; that said, I was inspired by his logic and weighing algorithms heavily for my final submission.
+My final few versions that I experimented with during the weekend of February 18 were inspired heavily by the ['gold bot'](http://braino.org/thoughts/halite_the_simple_way.html) and Erdman's [third place bot](https://github.com/erdman/erdman-halite-bots/blob/master/README.md). Erdman's bot is in Python, while my submission is ruby; that said, I stole his logic and weighing algorithms heavily for my final submission.
 
 The process of building out this final bot is documented in the `/gold` and `/hungry_v*` directories; the final submission is in the `/jheilema` directory. 
 
